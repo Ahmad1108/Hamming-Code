@@ -13,6 +13,7 @@ e.g, `> channel.exe -d 112` flips bits 112,224,336,...
 
 The receiver takes two parameters: IP address, port number chosen by the channel. decode the recieved stream under Hamming Code and save it on a file name chosen from the user.
 
+![](https://user-images.githubusercontent.com/109534594/197405209-56346841-d246-4707-925c-a9f10aff8aff.png)
 ## Constraints
 
 - file name is limited to 100 bytes.
