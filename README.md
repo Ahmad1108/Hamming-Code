@@ -1,8 +1,8 @@
 # Introduction
 
 The project is about encoding/decoding and code correction .it contains 3 executable programs: sender.exe, channel.exe, receiver.exe.
-The sender process takes two paramenters: IP address, port number in the command line arguments.
 
+The sender process takes two paramenters: IP address, port number in the command line arguments.
 the sender makes a TCP socket connection to the channel and sends a stream of bits using (31,26) [Hamming Code](https://en.wikipedia.org/wiki/Hamming_code).
 
 The channel takes in the command line arguments which noisy mode to insert, there are two modes:
